@@ -11,7 +11,6 @@ export default function App() {
         <MetaProvider>
           <Title>Todo List App</Title>
           <a href="/">Index</a>
-          <a href="/about">About</a>
           <Suspense>{props.children}</Suspense>
         </MetaProvider>
       )}
